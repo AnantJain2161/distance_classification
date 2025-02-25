@@ -1,0 +1,28 @@
+# Ignore virtual environment
+venv/
+.Venv/
+env/
+.Env/
+
+# Ignore dataset files
+*.csv
+*.json
+*.xlsx
+*.parquet
+data/
+datasets/
+
+# Ignore log files
+*.log
+logs/
+log/
+debug.log
+error.log
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
